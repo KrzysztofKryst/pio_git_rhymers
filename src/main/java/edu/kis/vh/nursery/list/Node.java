@@ -7,7 +7,11 @@ public class Node {
 	private Node next;
 
 	public Node(int i) {
+<<<<<<< Updated upstream
 		value = i;
+=======
+		setValue(i);
+>>>>>>> Stashed changes
 	}
 
 	public Node getNext() {
