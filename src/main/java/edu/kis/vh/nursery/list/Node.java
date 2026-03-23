@@ -7,7 +7,7 @@ public class Node {
 	private Node next;
 
 	public Node(int i) {
-		this.value = i;
+		value = i;
 	}
 
 	public Node getNext() {
@@ -30,4 +30,6 @@ public class Node {
 		return value;
 	}
 
+	// Jeśli masz metodę setValue(int value), to ją USUŃ.
+	// Pole final nie może mieć settera, bo go nie nadpiszesz.
 }
