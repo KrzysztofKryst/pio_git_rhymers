@@ -1,4 +1,4 @@
-.classpath
-.project
-.settings/
+.idea/
+*.iml
+out/
 target/
