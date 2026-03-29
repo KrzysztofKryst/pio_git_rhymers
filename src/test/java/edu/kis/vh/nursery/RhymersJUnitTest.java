@@ -83,4 +83,5 @@ public class RhymersJUnitTest {
         Assert.assertEquals(-1, list.pop());
     }
 
+    //TODO wiecej testow
 }

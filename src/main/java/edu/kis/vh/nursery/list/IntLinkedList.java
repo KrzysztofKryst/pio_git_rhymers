@@ -89,6 +89,8 @@ public class IntLinkedList {
     public boolean isEmpty() {
         return last == null;
     }
+    
+    //TODO isFull nie jest nigdzie wykorzystywane
 
     /**
      * Sprawdza, czy stos jest pełny.
@@ -102,6 +104,9 @@ public class IntLinkedList {
      * Zwraca wartość elementu na szczycie stosu, bez zdejmowania go.
      * @return wartość szczytowego elementu lub -1 jeśli stos jest pusty
      */
+    
+    //TODO top i pop jezeli lista pusta mozna podawac blad zamiast zwracac wartosc 
+    
     public int top() {
         if (isEmpty())
             return -1;
