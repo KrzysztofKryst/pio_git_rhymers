@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class RhymersJUnitTest {
+	//Testy przechodza pomyslnie
 
     @Test
     public void testCountIn() {
