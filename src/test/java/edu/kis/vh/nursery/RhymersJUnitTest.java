@@ -2,6 +2,7 @@ package edu.kis.vh.nursery;
 
 import org.junit.Assert;
 import org.junit.Test;
+import edu.kis.vh.nursery.list.IntLinkedList;
 
 public class RhymersJUnitTest {
 	//Testy przechodza pomyslnie
@@ -74,6 +75,12 @@ public class RhymersJUnitTest {
         Assert.assertEquals(testValue, result);
         result = rhymer.countOut();
         Assert.assertEquals(EMPTY_STACK_VALUE, result);
+    }
+    
+    @Test
+    public void testPopOnEmptyList() {
+    	IntLinkedList list = new IntLinkedList();
+        Assert.assertEquals(-1, list.pop());
     }
 
 }
